@@ -7,34 +7,34 @@
 </head>
 <body>
   <?php
-  $matches = [
-    [
-      'home' => 'Los Angeles Lakers',
-      'away' => 'Miami Heat',
-      'point_Home' => rand(1, 130),
-      'point_Away' => rand(1, 130)
-    ],
-    [
-      'home' => 'Indiana Pacers',
-      'away' => 'San Antonio Spurs',
-      'point_Home' => rand(1, 130),
-      'point_Away' => rand(1, 130)
-    ],
-    [
-      'home' => 'Los Angeles Clippers',
-      'away' => 'New York Knicks',
-      'point_Home' => rand(1, 130),
-      'point_Away' => rand(1, 130)
-    ],
-    [
-      'home' => 'Philadelphia 76ers',
-      'away' => 'Chicago Bulls',
-      'point_Home' => rand(1, 130),
-      'point_Away' => rand(1, 130)
-    ]
-  ];
+    $matches = [
+      [
+        'home' => 'Los Angeles Lakers',
+        'away' => 'Miami Heat',
+        'point_Home' => rand(1, 130),
+        'point_Away' => rand(1, 130)
+      ],
+      [
+        'home' => 'Indiana Pacers',
+        'away' => 'San Antonio Spurs',
+        'point_Home' => rand(1, 130),
+        'point_Away' => rand(1, 130)
+      ],
+      [
+        'home' => 'Los Angeles Clippers',
+        'away' => 'New York Knicks',
+        'point_Home' => rand(1, 130),
+        'point_Away' => rand(1, 130)
+      ],
+      [
+        'home' => 'Philadelphia 76ers',
+        'away' => 'Chicago Bulls',
+        'point_Home' => rand(1, 130),
+        'point_Away' => rand(1, 130)
+      ]
+    ];
   ?>
-  <h1>Risultati giornata</h1>
+    <h1>Risultati giornata</h1>
       <ul>
           <?php for($i=0; $i < count($matches); $i++){ ?>
               <li>
